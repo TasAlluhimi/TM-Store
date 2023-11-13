@@ -1,3 +1,6 @@
+body{
+    background: rgba(192, 192, 192, 0.253);
+}
 @media only screen and (max-width: 600px) {
     
     .cont{
@@ -7,6 +10,7 @@
     }
     
     .box{
+        background: white;
         max-width: 75vw !important;
         border: 1px solid rgba(0, 0, 0, 0.385);
         margin: 3%;
@@ -33,6 +37,7 @@
     }
     
     .box{
+        background: white;
         max-width: 39vw !important;
         border: 1px solid rgba(0, 0, 0, 0.277);
         margin: 5%;
@@ -60,7 +65,7 @@
 @media only screen and (min-width: 992px) {
     
     .imgg{
-        height: 600px !important;
+        height: 700px !important;
     }
 
 }
@@ -76,6 +81,7 @@
     border-radius: 10px;
     text-align: center;
     max-width: 25vw;
+    background: white;
     /* height: 60vh; */
     border: 1px solid rgba(0, 0, 0, 0.356);
     gap: 10px;
@@ -97,6 +103,9 @@
     margin-left: 15px;
 }
 
+footer{
+    margin-top: 30px;
+}
 /* .box small{
     justify-content: center;
     text-align: center;

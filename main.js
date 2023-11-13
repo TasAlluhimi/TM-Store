@@ -43,4 +43,15 @@ function apiFunction() {
     })
 }
 
+
+function logIn() {
+
+    signUpBtn = document.querySelector("#signUp");
+
+    const api = '';
+    fetch(api)
+    .then()
+    .then()
+
+}
 apiFunction();
