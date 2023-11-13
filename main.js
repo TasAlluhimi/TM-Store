@@ -2,11 +2,12 @@
 
 function apiFunction() {
     
+    console.log(1);
     let cont = document.querySelector("#cont");
 
-    const api = 'https://fakestoreapi.com/products';
+    const products_api = 'https://fakestoreapi.com/products';
     
-    fetch(api)
+    fetch(products_api)
 
     .then(response => response.json())
     .then(data => {
